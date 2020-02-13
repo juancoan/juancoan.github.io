@@ -8,12 +8,19 @@
     <script src= "saludo.js" type = "text/javascript"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <title>Estetica Canina D' Roberto</title>
+    <style>
+      body {
+        background-image: url("fondo.jpg");
+        background-repeat: no-repeat;
+      }
+      </style>
+  
+  
   </head>
   <body>
     <h1>Bienvenidos!!!</h1>
-    <div class="container-fluid">
+    <div class="container">
       <h4>
       <span class="badge badge-pill badge-light">Nuestros principales servicios son: </span>
      </h4>
@@ -39,8 +46,7 @@
           </div>
         </div>
       </div>
-    <div class="slider">
-         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide col-8 data-ride="carousel">
             <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./perro1.jpg" class="d-block w-100" alt="...">
@@ -60,8 +66,54 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
             </a>
+      </div>
+
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="./Video.mp4" allowfullscreen></iframe>
+      </div>
+
+      <h4>Contactanos</h4>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Correo Electronico</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
-    </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Opcion de contacto</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Agendar cita</option>
+            <option>Consulta</option>
+            <option>Observacion</option>
+            <option>Queja</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Descripcion</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-outline-primary" onclick="Boton();">Enviar</button>
+      </form>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
