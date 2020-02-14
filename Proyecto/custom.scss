@@ -1,6 +1,21 @@
 #titulo1 {
     height : 300px;
     padding: 25px;
-
 }
 
+.mt-0 {
+     margin-top: ($spacer * 2) !important;
+ }
+      
+.mb-1 {
+    margin-bottom: ($spacer * 2) !important;
+}
+      
+.px-2 {
+    padding-left: ($spacer * 2) !important;
+    padding-right: ($spacer * 2) !important;
+ }
+      
+ .p-3 {
+    padding: $spacer !important;
+}
